@@ -10,63 +10,62 @@ format:
     fig-height: 5
 ---
 
-This is a markdown / github task in the course [FP26](https://open.hpi.de/learn/hpi-dh-fprog2026)
-with source code at the [repo](https://github.com/brry/FP26).  
-*It is fine to not understand the R/Python code at this point - we'll get to that throughout the course :)*  
+This is a markdown / github task in the course [FP26](https://open.hpi.de/learn/hpi-dh-fprog2026) with source code at the [repo](https://github.com/brry/FP26).\
+*It is fine to not understand the R/Python code at this point - we'll get to that throughout the course :)*
 
-- Please first read the i.2 homework slide and follow the [installation guide](https://github.com/brry/fpsetup#software-installation-guide).
-- Please **pull** before you work and again before you **push**!! We want to reduce version conflicts as much as possible.
-- Include the generated md file (+ image and libs files) in your commit so that the website gets updated.
-- Write an informative commit message.
-- `Pull` before you `push` your commit. Yes, this instruction is repetitive. Experience teaches it is necessary. DO NOT UPLOAD YOUR CHANGES WITHOUT FIRST UPDATING THE CODE!
+-   Please first read the i.2 homework slide and follow the [installation guide](https://github.com/brry/fpsetup#software-installation-guide).
+-   Please **pull** before you work and again before you **push**!! We want to reduce version conflicts as much as possible.
+-   Include the generated md file (+ image and libs files) in your commit so that the website gets updated.
+-   Write an informative commit message.
+-   `Pull` before you `push` your commit. Yes, this instruction is repetitive. Experience teaches it is necessary. DO NOT UPLOAD YOUR CHANGES WITHOUT FIRST UPDATING THE CODE!
 
 ## Homework
 
-Implement **one** of the ideas below, following the instructions above.  
-To learn more markdown, create a copy of the file (version at course start if wanted) in which you can implement many/all ideas. Each student should have some options available, so don't push those changes. 
+Implement **one** of the ideas below, following the instructions above.\
+To learn more markdown, create a copy of the file (version at course start if wanted) in which you can implement many/all ideas. Each student should have some options available, so don't push those changes.
 
-- [X] change the date format in the yaml header to include HH:mm after the day (*this one should be implemented early, please*)
-- [x] change this bullet list to checkboxes for ideas that are implemented
-- [ ] link "version at course start" to the suitable github file history URL
-- [x] add some reasonable markdown code (e.g. strikethrough, link, reference, bold, cursive, ...)
-- [ ] in Rstudio: change the chunk output location setting to "console" (changes yaml header)
-- [x] make one single code chunk foldable (folded by default); leave all other chunks as is
-- [x] suppress the output of `updateRdwd` with a chunk option
-- [X] add a bit of text with the output of an inline code expression
-- [ ] improve the python output to not be split up but appear after all code (with a chunk option)
-- [ ] move done tasks to a nicely named collapsed section to declutter this overview
-- [ ] add a `knitr::kable` with a small subset of the dataset (with proper package importing)
-- [ ] format a plot as actual figures and add labels (chunk options)
-- [ ] elsewehere in the text, add a reference to that figure
-- [ ] change the date to the rendering time (note why in the commit - there is one particular reason)
-- [x] add a table of contents (yaml header option)
-- [ ] set a custom theme or highlight style in the yaml header
-- [ ] use the modern chunk option format (at chunk top, not inside {}) for labels + options
-- [x] add a footnote somewhere in the text
-- [ ] add an image (e.g. a screenshot or the DWD logo) with alt text
-- [ ] set global execution options in the yaml (e.g. `warning: false`) instead of per-chunk
-- [x] add `fig-width` / `fig-height` as global defaults in the yaml
-- [ ] add margin content with `column: margin` on a chunk or text block
+-   [x] change the date format in the yaml header to include HH:mm after the day (*this one should be implemented early, please*)
+-   [x] change this bullet list to checkboxes for ideas that are implemented
+-   [ ] link "version at course start" to the suitable github file history URL
+-   [x] add some reasonable markdown code (e.g. strikethrough, link, reference, bold, cursive, ...)
+-   [ ] in Rstudio: change the chunk output location setting to "console" (changes yaml header)
+-   [x] make one single code chunk foldable (folded by default); leave all other chunks as is
+-   [x] suppress the output of `updateRdwd` with a chunk option
+-   [x] add a bit of text with the output of an inline code expression
+-   [ ] improve the python output to not be split up but appear after all code (with a chunk option)
+-   [ ] move done tasks to a nicely named collapsed section to declutter this overview
+-   [ ] add a `knitr::kable` with a small subset of the dataset (with proper package importing)
+-   [ ] format a plot as actual figures and add labels (chunk options)
+-   [ ] elsewehere in the text, add a reference to that figure
+-   [ ] change the date to the rendering time (note why in the commit - there is one particular reason)
+-   [x] add a table of contents (yaml header option)
+-   [ ] set a custom theme or highlight style in the yaml header
+-   [ ] use the modern chunk option format (at chunk top, not inside {}) for labels + options
+-   [x] add a footnote somewhere in the text
+-   [x] add an image (e.g. a screenshot or the DWD logo) with alt text
+-   [ ] set global execution options in the yaml (e.g. `warning: false`) instead of per-chunk
+-   [x] add `fig-width` / `fig-height` as global defaults in the yaml
+-   [ ] add margin content with `column: margin` on a chunk or text block
 
 ::: {.callout-tip collapse="true"}
 ## click here for further ideas
 
 These suggestions are less applicable to the document at hand or not so interesting for learning the markdown basics
 
-- [ ] use a tabset (`:::{.panel-tabset}`) to organise sections or outputs
-- [ ] add cross-references between sections using `@sec-` labels
-- [ ] cite scientific articles referring to a local bibliography file
-- [ ] use a blockquote (`>`) for a fun or relevant quote about weather/data
-- [ ] add an explanation why the code chunks in this particular document should not be cached
-- [ ] use a meaningful multi-line commit message (subject + body) for a commit
-- [ ] change some other document setting you like from [quarto.org](https://quarto.org/)
-- [ ] revert / adapt a change someone made that you dislike (commit/PR discussion welcome!)
-- [ ] tag a version with `git tag` after a meaningful milestone
-- [ ] add a `.gitignore` entry for irrelevant output folders (e.g. `*_cache/`)
-- [ ] enable `embed-resources: true` so the HTML renders as a single self-contained file
-- [ ] improve a code chunk with some meaningful adaptation (this is not markdown related)
-- [ ] use code annotation (`# <1>` style) to explain a line in a chunk without touching the code logic
-- [ ] use a different style Quarto callout block for important info
+-   [ ] use a tabset (`:::{.panel-tabset}`) to organise sections or outputs
+-   [ ] add cross-references between sections using `@sec-` labels
+-   [ ] cite scientific articles referring to a local bibliography file
+-   [ ] use a blockquote (`>`) for a fun or relevant quote about weather/data
+-   [ ] add an explanation why the code chunks in this particular document should not be cached
+-   [ ] use a meaningful multi-line commit message (subject + body) for a commit
+-   [ ] change some other document setting you like from [quarto.org](https://quarto.org/)
+-   [ ] revert / adapt a change someone made that you dislike (commit/PR discussion welcome!)
+-   [ ] tag a version with `git tag` after a meaningful milestone
+-   [ ] add a `.gitignore` entry for irrelevant output folders (e.g. `*_cache/`)
+-   [ ] enable `embed-resources: true` so the HTML renders as a single self-contained file
+-   [ ] improve a code chunk with some meaningful adaptation (this is not markdown related)
+-   [ ] use code annotation (`# <1>` style) to explain a line in a chunk without touching the code logic
+-   [ ] use a different style Quarto callout block for important info
 :::
 
 ## Check package availability
@@ -75,7 +74,7 @@ These suggestions are less applicable to the document at hand or not so interest
 import matplotlib, pandas
 ```
 
-```{r, packages} 
+```{r, packages}
 #| message: false
 if(!requireNamespace("rdwd", quietly=TRUE))
 	install.packages("rdwd")
@@ -84,9 +83,11 @@ rdwd::updateRdwd(vignette=FALSE)
 
 ## Get weather data
 
-download recent weather data using [rdwd](https://brry.github.io/rdwd/)[^dwd]
+download recent weather data using [rdwd](https://brry.github.io/rdwd/)[^1]
 
-[^dwd]: The German Weather Service (DWD) provides free access to weather data. 
+[^1]: The German Weather Service (DWD) provides free access to weather data.
+
+![Logo des Deutschen Wetterdienstes (DWD)](logo_dwd.jpeg){width="150px" fig-align="left"}
 
 ```{r, get_weather_data}
 library(rdwd)
@@ -123,4 +124,3 @@ print("\n=== Summary Statistics for Temperature ===")
 temp_stats = clim_py['TMK.Lufttemperatur'].describe()
 print(temp_stats)
 ```
-
